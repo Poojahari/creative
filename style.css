@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	font-family: 'Montserrat', sans-serif!important;
+	background-color: #333333!important;
+	color: #666666;
+	overflow: visible;
+}
+h5 {
+	margin: 0!important;
+}
+h3 {
+	line-height: 30px!important;
+	color: #ffffff!important;
+}
+h6 {
+	color: #ffffff!important;
+	font-size: 12px!important;
+	margin-bottom: 30px!important;
+}
+.button {
+	background: #28B294;
+	padding: 15px 10px;
+	width: 30%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.location {
+	font-size: 13px;
+	color: #999999;
+	font-weight: bold;
+}
+.btn-primary {
+	background: #28B294!important;
+	border: 0!important;
+	width: 100%;
+}
+a {
+	text-decoration: none!important;
+	color: #ffffff!important;
+}
+.header {
+	background: #ffffff;
+	margin: 0!important;
+	padding: 0!important;
+	width: 100%!important;
+	margin-bottom: 20px;
+}
+.center-box {
+	margin: auto;
+	display: block;
+	color: #666666;
+	border: 2px solid thin;
+}
+.footer {
+	font-size: 10px!important;
+	line-height: 15px;
+	font-weight: normal;
+	text-align: center;
+}
+.ptext {
+	padding: 15px!important;
+	color: #999999;
+	font-size: 13px;
+}
+i {
+	font-size: 16px!important;
+}
+.r-margin {
+	margin-right: 5px;
+}
+.no-pad {
+	padding: 0!important;
+}
+.no-mar {
+	margin: 0!important;
+}
+.p-login-height {
+	min-height: 330px!important;
+}
+.p-register-height {
+	min-height: 450px!important;
+}
+.p-login {
+	margin-top: 40px;
+	padding: 30px;
+	/*	box-shadow: 2px 4px 15px #888888;
+*/	min-height: 500px!important;
+	border: dotted 1px #999999;
+}
+.btn-secondary {
+	width: 100%;
+	border: solid 1px #28B294;
+	background-color: #EDEDED;
+	color: #28B294;
+}
+.card {
+	border: 1px solid #BBBBBB;
+	padding: 15px;
+	margin: 0 0 10px 0;
+}
+.search-button:hover {
+	background: #444444;
+}
+.search::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.pad-in {
+	padding: 30px!important;
+}
+.top-mar {
+	margin-top: 30px!important;
+}
+.search {
+	width: 100%;
+	padding: 12px;
+	font-size: 14px;
+	border: 1px solid #28B294;
+	float: left;
+	background: #f1f1f1;
+	color: #C8C5C5!important;
+	margin-top: 30px;
+}
+.search-button {
+	float: left;
+	width: 60px;
+	padding: 10px;
+	background: #28B294;
+	color: #ffffff;
+	font-size: 17px;
+	margin-top: 30px;
+	border: 1px solid #28B294;
+}
+.mar-right {
+	margin-right: 10px;
+}
+span {
+	color: #28B294;
+}
+/* -- CSS Reset -- */
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.projects {
+	margin-right: auto;
+	margin-left: auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	-moz-font-feature-settings: "liga" on;
+	margin: 0;
+}
+img {
+	margin-bottom: 15px;
+}
+
+/* -- Content -- */
+@-webkit-keyframes fadein {
+ from {
+ opacity: 0;
+}
+ to {
+ opacity: 1;
+}
+}
+@keyframes fadein {
+ from {
+ opacity: 0;
+}
+ to {
+ opacity: 1;
+}
+}
+b, p {
+	color: #666666;
+}
+.fs-split {
+	width: 100vw;
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.split-content {
+	background: #ededed!important;
+	color: #333333!important;
+	overflow: scroll!important;
+	padding: 20px;
+}
+
+@media (max-width: 800px) {
+.fs-split {
+	height: auto;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+}
+.fs-split .split-image {
+	width: 30%;
+	background-position: center center;
+	background-size: cover;
+	padding: 0 20px;
+}
+
+@media (max-width: 800px) {
+.fs-split .split-image {
+	width: 100%;
+}
+}
+.fs-split .split-content {
+	width: 70%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	overflow: auto;
+}
+
+@media (max-width: 800px) {
+.fs-split .split-content {
+	width: 100%;
+	height: auto;
+}
+}
+.fs-split .split-content .split-content-vertically-center {
+	padding: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 100%!important;
+}
+
+@media (max-width: 1200px) {
+.fs-split .split-content .split-content-vertically-center {
+	padding: 40px;
+}
+}
+
+@media (max-width: 800px) {
+.fs-split .split-content .split-content-vertically-center {
+	padding: 40px;
+}
+}
+.split-intro {
+	font-weight: 400;
+	line-height: 16px;
+	margin-bottom: 10px;
+	letter-spacing: 0.4px;
+	color: #28B294!important;
+}
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+	transition: 0.3s;
+	margin: 10px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/* Add some padding inside the card container */
+.container {
+	padding: 2px 16px;
+}
+.bot-mar {
+	margin: 0 0 20px 0;
+}
