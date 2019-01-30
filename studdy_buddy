@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Study Buddy</title>
+
+<!--Links -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<!-- Responsive Bootstrap Styling -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body id="fullsingle" class="page-template-page-fullsingle-split">
+<div class="col-xs-12 no-pad no-mar  bg-white">
+  <div class="no-pad no-mar"> <span class="button pull-left"><a href="Studybuddy.html">Study Buddy</a></span> </div>
+  <div class="no-mar no-pad">
+    <h5 class="ptext  fa-pull-right no-pad">Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Signup&nbsp;&nbsp;&nbsp;&nbsp;<a href="Studybuddy-result.html"> <i class="far fa-envelope ptext  mar-right"></i> </a></h5>
+  </div>
+</div>
+<div class="fs-split"> 
+  
+  <!-- Left Side -->
+  <div class="split-image">
+    <div class="col-xs-12 top-mar">
+      <h3 class="text-left">Welcome to Study Buddy! Looking for someone to study with you?</h3>
+      <form class="col-xs-12 no-pad top-mar" action="/action_page.php">
+        <div class="col-xs-10 no-mar no-pad" >
+          <input class="search" type="text" placeholder="What would you like to work on?" name="search">
+        </div>
+        <div class="col-xs-2 no-mar no-pad">
+          <button class="search-button" type="submit"><i class="fa fa-search"></i></button>
+        </div>
+      </form>
+      <div class="col-xs-12 no-mar no-pad">
+        <h6 class="ptext top-mar no-pad">To become a study buddy, call us at 630-337-8334. </h6>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Right Side -->
+  <div class="split-content">
+    <div class="split-content-vertically-center">
+      <section>
+        <div class="split-intro">
+			<h3><span>Search Results</span></h3>
+        </div>
+        <h2 class="lead"><strong class="text-dark">5</strong> results were found for the search for <strong class="text-dark">Piano</strong></h2>
+        <section class="no-pad no-mar">
+          <div class="card col-xs-12 bot-mar"><a href="">
+            <div class="col-xs-12 col-md-3"><img src="//placehold.it/160x100/666666/ffffff"  alt="pic">
+              <div>
+                <button type="button" class="btn btn-primary">Send Message</button>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-9">
+              <h4 class="taxt-dark"><b>John Doe</b><span class="location" > | Downers Grove</span></h4>
+              <p> <span class="location">About me:</span> I have been learning piano for 7 years.<br>
+                <span class="location"> I can help you with:</span> Piano,
+                Math,
+                Reading,
+                Tennis<br>
+                <span class="location">rate:</span> $ 7 / 30 minutes</p>
+            </div>
+            </a> </div>
+          <div class="card col-xs-12 bot-mar"><a href="">
+            <div class="col-xs-12 col-md-3"><img src="//placehold.it/160x100/666666/ffffff"  alt="pic">
+              <div>
+                <button type="button" class="btn btn-primary">Send Message</button>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-9">
+              <h4 class="taxt-dark"><b>John Doe</b><span class="location" > | Downers Grove</span></h4>
+              <p> <span class="location">About me:</span> I have been learning piano for 7 years.<br>
+                <span class="location"> I can help you with:</span> Piano,
+                Math,
+                Reading,
+                Tennis<br>
+                <span class="location">rate:</span> $ 7 / 30 minutes</p>
+            </div>
+            </a> </div>
+          <div class="card col-xs-12 bot-mar"><a href="">
+            <div class="col-xs-12 col-md-3"><img src="//placehold.it/160x100/666666/ffffff"  alt="pic">
+              <div>
+                <button type="button" class="btn btn-primary">Send Message</button>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-9">
+              <h4 class="taxt-dark"><b>John Doe</b><span class="location" > | Downers Grove</span></h4>
+              <p> <span class="location">About me:</span> I have been learning piano for 7 years.<br>
+                <span class="location"> I can help you with:</span> Piano,
+                Math,
+                Reading,
+                Tennis<br>
+                <span class="location">rate:</span> $ 7 / 30 minutes</p>
+            </div>
+            </a> </div>
+          <div class="card col-xs-12 bot-mar"><a href="">
+            <div class="col-xs-12 col-md-3"><img src="//placehold.it/160x100/666666/ffffff"  alt="pic">
+              <div>
+                <button type="button" class="btn btn-primary">Send Message</button>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-9">
+              <h4 class="taxt-dark"><b>John Doe</b><span class="location" > | Downers Grove</span></h4>
+              <p> <span class="location">About me:</span> I have been learning piano for 7 years.<br>
+                <span class="location"> I can help you with:</span> Piano,
+                Math,
+                Reading,
+                Tennis<br>
+                <span class="location">rate:</span> $ 7 / 30 minutes</p>
+            </div>
+            </a> </div>
+          <div class="card col-xs-12 bot-mar"><a href="">
+            <div class="col-xs-12 col-md-3"><img src="//placehold.it/160x100/666666/ffffff"  alt="pic">
+              <div>
+                <button type="button" class="btn btn-primary">Send Message</button>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-9">
+              <h4 class="taxt-dark"><b>John Doe</b><span class="location" > | Downers Grove</span></h4>
+              <p> <span class="location">About me:</span> I have been learning piano for 7 years.<br>
+                <span class="location"> I can help you with:</span> Piano,
+                Math,
+                Reading,
+                Tennis<br>
+                <span class="location">rate:</span> $ 7 / 30 minutes</p>
+            </div>
+            </a> </div>
+        </section>
+      </section>
+    </div>
+  </div>
+</div>
+<script>
+	var placeholders = document.querySelectorAll('.js-img');
+var showImg = function(img) {
+  img.style.opacity = 1;
+}
+
+Array.prototype.forEach.call(placeholders, function(placeholder) {
+  var img = placeholder.querySelector('img');
+  placeholder.style.padding = '0 0 ' + (img.height / img.width * 100) + '%';
+  if (img.loaded) {
+  	showImg(img)
+    return;
+  }
+  img.classList.add('isLoading');
+  var showThisImg = function() {
+    showImg(img);
+    img.removeEventListener('load', showThisImg);
+  }
+  img.addEventListener('load', showThisImg)
+})</script>
+</body>
+</html>
